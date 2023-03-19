@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Gloria+Hallelujah&family=Libre+Barcode+39+Text&family=Mansalva&family=Mynerve&family=Nosifer&family=Press+Start+2P&family=Reenie+Beanie&family=Rubik+Iso&family=Rubik+Spray+Paint&family=Share+Tech+Mono&family=Slackey&family=Syne+Mono&family=VT323&display=swap');
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: Share Tech Mono;
+    text-align: center;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+#eyes {
+  padding-top: 5%;
+  background-image: url("images/eyes.png"); 
+  height: 500px;
+  background-position: center; 
+  background-repeat: repeat;
+  background-size: cover;
+  color: red;
+  align-content: center;
+  text-align: center;
+}
+
+#glitch {
+    text-align: center;
+    align-content: center;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+
+#where {
+  color: white;
+  font-size: 40pt;
+  margin: none;
+  background-image: url("images/blue-background.png"); 
+  background-position: center; 
+  background-repeat: repeat;
+  background-size: cover;
+  padding-top: 10px;
+}
+
+#clock {
+  margin: none;
+  padding: none;
+  background-image: url("images/black-background.png"); 
+  background-position: center; 
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#mirror {
+  padding-top: 10px;
+  background-image: url("images/mirror.png"); 
+  height: 500px;
+  background-position: center; 
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#alone {
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+  padding-top: 30%;
+  color: white;
+}
+
+#nature {
+  text-align: center;
+  align-content: center;
+  color: white;
+  padding-top: 10%;
+  background-image: url("images/trees.png"); 
+  background-position: center; 
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+
+
+.div {
+  height: 80%;
+  width: 100%;
+  padding: 10px;
+}
+
+.line {
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+#text {
+  background: white;
+}
+
+.title {
+    font-size: xx-large;
+    font-family: Share Tech Mono;
+    background-color: white;
+  }
+
+#title_two {
+    font-size: xx-large;
+    font-family: Share Tech Mono;
+    background-color: rgb(255, 224, 113);
+  }
+
+#title_three {
+    font-size: xx-large;
+    font-family: Share Tech Mono;
+    color: white;
+  }
+
+
+
+#highlight {
+    display: inline-block;
+    padding: .25em 0;
+    background: black;
+    color: white;
+  }
+  
+#highlight_two {
+    display: inline-block;
+    padding: .25em 0;
+    background: white;
+    color: rgb(210, 0, 0);
+    font-size: large;
+  }
+
+
+
+
+#link {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    transition: .2s;
+  }
+
+.link_two {
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    transform: scale(1);
+    transition: .2s; 
+    justify-content: right;
+  }
+
+#link_three {
+    text-decoration: none;
+    color: white;
+    transform: scale(1);
+    transition: .2s; 
+    justify-content: right;
+    font-size: 50pt;
+  }
+
+
+
+#where img:hover {
+    opacity: 30%;
+    text-decoration: none;
+  }
+
+#nature a:hover {
+    opacity: 70%;
+  }
+
+a:hover #link {
+    transform: scale(1.5);
+  }
+
+a:hover .link_two {
+    transform: scale(1.5);
+    transition: .2s;
+    text-decoration: none;
+  }
+
+a:hover #link_three {
+    transform: scale(1.5);
+    transition: .2s;
+    text-decoration: none;
+  }
+
+#eyeball:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+  }
+ 
+
+
+#one {
+    width: 20%;
+    text-align: left;
+    line-height: 60%;
+  }
+
+#two {
+    display: block;
+    position: fixed;
+    width: 50%;
+    text-align: left;
+    padding: 30px;
+    line-height: 260%;
+  }
+
+#three {
+    width: 70%;
+    text-align: right;
+    line-height: 160%;
+    font-size: large;
+  }
+
+#four {
+    display: block;
+    position: fixed;
+    width: 50%;
+    text-align: left;
+    padding-top: 30%;
+  }
+
+#five {
+    display:list-item;
+    position: fixed;
+    width: 10%;
+    text-align: left;
+    padding-right: 30%;
+    line-height: 70%;
+    font-kerning: none;
+    font-size: x-large;
+  }
+
+#six {
+    width: 20%;
+    text-align: left;
+    padding-top: 15%;
+    padding-left: 10%;
+    font-kerning: none;
+    font-size: small;
+  }
+
+
+
+#video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+#animated-text {
+    background-image: -webkit-linear-gradient(rgb(210, 0, 0) 70%, rgb(253, 241, 159) 30%);
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+    font-size: 70px;
+    font-family: Share Tech Mono;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  @keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
