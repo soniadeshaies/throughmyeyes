@@ -178,7 +178,7 @@ a{
   }
 
 a:hover #link {
-    transform: scale(1.5);
+    transform: scale(2.5);
   }
 
 a:hover .link_two {
